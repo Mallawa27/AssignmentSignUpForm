@@ -1,0 +1,58 @@
+body{
+	background-image:linear-gradient(to right, #310055,#461e5c);
+}
+
+h1 {
+font-size: larger;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 400;
+font-style: normal;
+margin-bottom: 20px;
+animation: fadeIn 2s;
+text-align: center;
+
+}
+
+fieldset{
+	width: 100%;
+	max-width: 400px;
+	padding: 20px;
+	box-sizing: border-box;
+	border: 5px solid  #ffd7d7;
+	border-radius: 5px;
+	box-shadow: 0 0 10 px rgba(0, 0, 0, 0.1);
+	animation: fadeIn 2s;
+	max-height: 500px;
+	overflow-y: auto;
+	background-color: #ffad03;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+label {
+  display: grid;
+  margin-bottom: 10px;
+  width: 100%; 
+}
+
+input[type=text], input[type=number], input[type=tel], input[type=email], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  height: 20%;
+  color: black;
+  background-image:linear-gradient(to right, #354F52, #04724d);
+  width: 30%;
+  border-radius:5px ;
+  transition: all 0.4s ease;
+}
+
